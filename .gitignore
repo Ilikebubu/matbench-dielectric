@@ -1,0 +1,19 @@
+# 数据文件（太大不进 git）
+data/*.csv
+
+# 模型文件
+models/*.pkl
+models/*.npy
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 虚拟环境
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
