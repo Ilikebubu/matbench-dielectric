@@ -1,0 +1,46 @@
+
+======================================================================
+特征筛选使用指南 (Day 5 总结)
+======================================================================
+
+1. 原始数据概况
+   - 总特征数: 135
+   - 样本数: 4764
+   - 目标变量: n_dielectric
+
+2. 特征重要性 Top 5
+   1. MagpieData maximum Electronegativity 0.4109 (41.1%)
+   2. density                        0.2416 (24.2%)
+   3. MagpieData avg_dev NpValence   0.0550 (5.5%)
+   4. MagpieData mean NpValence      0.0361 (3.6%)
+   5. MagpieData maximum MendeleevNumber 0.0336 (3.4%)
+
+3. 推荐筛选策略: 平衡筛选（累计90%）
+   - 保留特征数: 14
+   - 累计重要性: 90.4%
+   - 测试集 R²: 0.5682
+   - 与全特征模型相比损失: 0.0099 (1.71%)
+
+4. 使用方法
+   # 加载模型和特征列表
+   import joblib
+   import json
+
+   model = joblib.load('../models/day05_final_tree.pkl')
+   with open('../models/day05_model_info.json', 'r') as f:
+       info = json.load(f)
+   selected_features = info['selected_features']
+
+   # 对新数据预测
+   X_new = df_new[selected_features]  # 只用选中的特征
+   predictions = model.predict(X_new)
+
+5. 注意事项
+   - 必须使用相同的特征顺序
+   - 新数据的特征要经过相同的预处理（如归一化）
+   - 如果性能下降 > 0.02，考虑增加特征数
+
+6. 下一步优化方向
+   - 尝试随机森林（Day 8-14）
+   - 尝试 XGBoost（Day 15-21）
+   - 探索特征工程（组合特征、多项式特征）

@@ -1,0 +1,32 @@
+{
+  "strategy": "\u5e73\u8861\u7b5b\u9009\uff08\u7d2f\u8ba190%\uff09",
+  "n_features_original": 135,
+  "n_features_selected": 14,
+  "selected_features": [
+    "MagpieData maximum Electronegativity",
+    "density",
+    "MagpieData avg_dev NpValence",
+    "MagpieData mean NpValence",
+    "MagpieData maximum MendeleevNumber",
+    "MagpieData mode Electronegativity",
+    "MagpieData minimum CovalentRadius",
+    "MagpieData range Electronegativity",
+    "MagpieData mean NdUnfilled",
+    "vpa",
+    "MagpieData mean MeltingT",
+    "MagpieData mean NUnfilled",
+    "MagpieData range Column",
+    "MagpieData avg_dev Electronegativity"
+  ],
+  "feature_reduction_rate": 0.8962962962962963,
+  "cumulative_importance": 0.903637336175282,
+  "model_params": {
+    "max_depth": 15,
+    "min_samples_leaf": 20
+  },
+  "performance": {
+    "train_r2": 0.6393158718221912,
+    "test_r2": 0.5682022440016301,
+    "r2_drop_from_full": 0.009868335265942996
+  }
+}
