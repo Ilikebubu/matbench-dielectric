@@ -1,0 +1,77 @@
+{
+  "data_summary": {
+    "n_samples": 4764,
+    "n_features": 135,
+    "n_missing": 0,
+    "target_mean": 1.1757844957326489,
+    "target_std": 0.28034553720371375
+  },
+  "grid_search": {
+    "best_params": {
+      "max_depth": 15,
+      "min_samples_leaf": 20,
+      "min_samples_split": 50
+    },
+    "best_cv_score": 0.49934796380329916,
+    "n_combinations_tried": 36
+  },
+  "performance": {
+    "train_r2": 0.6410056733989535,
+    "train_rmse": 0.17075963170452083,
+    "train_mae": 0.07680034257494087,
+    "test_r2": 0.5842068406317915,
+    "test_rmse": 0.168059834165679,
+    "test_mae": 0.0857138604994006,
+    "overfitting_gap": 0.05679883276716202
+  },
+  "feature_importance": {
+    "top_features": [
+      {
+        "feature": "MagpieData maximum Electronegativity",
+        "importance": 0.416625811749219
+      },
+      {
+        "feature": "density",
+        "importance": 0.24171137641351406
+      },
+      {
+        "feature": "MagpieData avg_dev NpValence",
+        "importance": 0.05574841412728114
+      },
+      {
+        "feature": "MagpieData mean NpValence",
+        "importance": 0.036607146634973955
+      },
+      {
+        "feature": "MagpieData maximum MendeleevNumber",
+        "importance": 0.03401701486881799
+      },
+      {
+        "feature": "MagpieData mode Electronegativity",
+        "importance": 0.022332658566682463
+      },
+      {
+        "feature": "MagpieData minimum CovalentRadius",
+        "importance": 0.017786283512148
+      },
+      {
+        "feature": "MagpieData mean NdUnfilled",
+        "importance": 0.015313517493315955
+      },
+      {
+        "feature": "MagpieData range Electronegativity",
+        "importance": 0.015260912356412127
+      },
+      {
+        "feature": "vpa",
+        "importance": 0.014602666988190521
+      }
+    ]
+  },
+  "model_params": {
+    "max_depth": 15,
+    "min_samples_leaf": 20,
+    "min_samples_split": 50
+  },
+  "timestamp": "20260616_214219"
+}
