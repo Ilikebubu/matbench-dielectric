@@ -13,6 +13,6 @@
   "grid_search_time_seconds": 38.503843784332275,
   "improvements": {
     "from_decision_tree": 0.11909446221097064,
-    "from_default_rf": 0.0021650579196393904
+    "from_default_rf": 0.0021650579196395014
   }
 }
