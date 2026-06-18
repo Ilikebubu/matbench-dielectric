@@ -1,0 +1,18 @@
+{
+  "best_params": {
+    "max_depth": "None",
+    "max_features": 0.5,
+    "min_samples_leaf": 3,
+    "n_estimators": 150
+  },
+  "best_cv_score": 0.590498454152926,
+  "test_r2": 0.6971650414785437,
+  "train_r2": 0.8254637850317071,
+  "overfitting_gap": 0.1282987435531634,
+  "optimal_n_estimators_from_exp1": 150,
+  "grid_search_time_seconds": 38.503843784332275,
+  "improvements": {
+    "from_decision_tree": 0.11909446221097064,
+    "from_default_rf": 0.0021650579196393904
+  }
+}
