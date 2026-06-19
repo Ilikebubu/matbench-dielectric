@@ -1,0 +1,17 @@
+{
+  "optimal_n_estimators": 70,
+  "oob_score_at_optimal": 0.5467060476746569,
+  "test_score_at_optimal": 0.6924613613797834,
+  "oob_test_gap_mean": -0.14855092345763277,
+  "best_params_by_oob": {
+    "max_depth": "nan",
+    "max_features": "sqrt",
+    "oob_r2": 0.582465709572138,
+    "test_r2": 0.7042182110458871
+  },
+  "speed_comparison": {
+    "oob_time": 5.023554563522339,
+    "cv_time": 17.96896767616272,
+    "speedup": 3.576942869624873
+  }
+}
