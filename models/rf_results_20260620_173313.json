@@ -1,0 +1,78 @@
+{
+  "tuning": {
+    "method": "GridSearchCV",
+    "best_params": {
+      "max_depth": 20,
+      "max_features": 0.5,
+      "min_samples_leaf": 5,
+      "n_estimators": 200
+    },
+    "best_cv_score": 0.5893368602520502
+  },
+  "performance": {
+    "train_r2": 0.7770286515613039,
+    "train_rmse": 0.1345754829314196,
+    "test_r2": 0.6941520875837766,
+    "test_rmse": 0.14413784376034666,
+    "oob_r2": "None",
+    "overfitting_gap": 0.0828765639775273
+  },
+  "feature_importance": {
+    "top_5_builtin": [
+      {
+        "feature": "MagpieData maximum Electronegativity",
+        "importance": 0.15299084759611362
+      },
+      {
+        "feature": "density",
+        "importance": 0.13165413695606173
+      },
+      {
+        "feature": "MagpieData minimum MeltingT",
+        "importance": 0.12070140848575182
+      },
+      {
+        "feature": "MagpieData mode MeltingT",
+        "importance": 0.06109803963372351
+      },
+      {
+        "feature": "MagpieData minimum CovalentRadius",
+        "importance": 0.029770999049123253
+      }
+    ],
+    "top_5_permutation": [
+      {
+        "feature": "density",
+        "importance_mean": 0.15358517230735153,
+        "importance_std": 0.019018275420738442
+      },
+      {
+        "feature": "MagpieData maximum Electronegativity",
+        "importance_mean": 0.06319703211026495,
+        "importance_std": 0.0034266133775384686
+      },
+      {
+        "feature": "MagpieData minimum MeltingT",
+        "importance_mean": 0.039051507221104065,
+        "importance_std": 0.00332184872949398
+      },
+      {
+        "feature": "MagpieData mean MeltingT",
+        "importance_mean": 0.01517507059042229,
+        "importance_std": 0.0017284613969418493
+      },
+      {
+        "feature": "vpa",
+        "importance_mean": 0.012481206954853863,
+        "importance_std": 0.0019788196046079164
+      }
+    ]
+  },
+  "timestamp": "20260620_173313",
+  "model_params": {
+    "max_depth": 20,
+    "max_features": 0.5,
+    "min_samples_leaf": 5,
+    "n_estimators": 200
+  }
+}
