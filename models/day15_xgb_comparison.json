@@ -1,0 +1,37 @@
+{
+  "models": [
+    {
+      "Model": "Week 1: \u51b3\u7b56\u6811\uff08\u6700\u4f73\uff09",
+      "Train_R2": 0.6499142220654697,
+      "Test_R2": 0.5780705792675731,
+      "Gap": 0.07184364279789657,
+      "Train_Time": "N/A"
+    },
+    {
+      "Model": "Week 2: \u968f\u673a\u68ee\u6797\uff08\u8c03\u4f18\uff09",
+      "Train_R2": 0.8254637850317071,
+      "Test_R2": 0.6971650414785437,
+      "Gap": 0.1282987435531634,
+      "Train_Time": "N/A"
+    },
+    {
+      "Model": "Week 3: XGBoost\uff08\u9ed8\u8ba4\uff09",
+      "Train_R2": 0.992894809929043,
+      "Test_R2": 0.6177506216897453,
+      "Gap": 0.37514418823929774,
+      "Train_Time": "0.59s"
+    }
+  ],
+  "xgboost_params": {
+    "n_estimators": 100,
+    "max_depth": 6,
+    "learning_rate": 0.3
+  },
+  "performance": {
+    "train_r2": 0.992894809929043,
+    "test_r2": 0.6177506216897453,
+    "train_rmse": 0.024023112049667988,
+    "test_rmse": 0.16113825435141824,
+    "overfitting_gap": 0.37514418823929774
+  }
+}
