@@ -1,0 +1,56 @@
+{
+  "best_learning_rate": 0.1,
+  "best_n_estimators": 102,
+  "early_stopping_rounds": 50,
+  "actual_iterations_used": 102,
+  "final_performance": {
+    "train_r2": 0.9905474456641952,
+    "test_r2": 0.6828419629364131,
+    "overfitting_gap": 0.3077054827277821
+  },
+  "experiments": {
+    "lr_n_est_pairs": [
+      {
+        "lr": 0.3,
+        "n_est": 100,
+        "train_r2": 0.9966575915146972,
+        "test_r2": 0.655483018593694,
+        "gap": 0.3411745729210033,
+        "train_time": 1.2988550662994385,
+        "total_learning": 30.0
+      },
+      {
+        "lr": 0.1,
+        "n_est": 300,
+        "train_r2": 0.9966968794855235,
+        "test_r2": 0.6815314550243045,
+        "gap": 0.3151654244612191,
+        "train_time": 2.830050468444824,
+        "total_learning": 30.0
+      },
+      {
+        "lr": 0.05,
+        "n_est": 600,
+        "train_r2": 0.9967271048965852,
+        "test_r2": 0.6768417305609268,
+        "gap": 0.31988537433565845,
+        "train_time": 5.182396650314331,
+        "total_learning": 30.0
+      },
+      {
+        "lr": 0.01,
+        "n_est": 3000,
+        "train_r2": 0.9967188132669901,
+        "test_r2": 0.6857615817014204,
+        "gap": 0.31095723156556965,
+        "train_time": 23.27366328239441,
+        "total_learning": 30.0
+      }
+    ],
+    "early_stopping_comparison": {
+      "without_es_time": 5.151142835617065,
+      "with_es_time": 1.5080008506774902,
+      "time_saved_pct": 70.72492651047126
+    }
+  }
+}
