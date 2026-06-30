@@ -1,0 +1,87 @@
+{
+  "top10_shap_features": [
+    {
+      "feature": "density",
+      "SHAP": 0.052249833941459656
+    },
+    {
+      "feature": "MagpieData maximum Electronegativity",
+      "SHAP": 0.039739999920129776
+    },
+    {
+      "feature": "MagpieData minimum MeltingT",
+      "SHAP": 0.017948100343346596
+    },
+    {
+      "feature": "MagpieData mode MeltingT",
+      "SHAP": 0.01357992272824049
+    },
+    {
+      "feature": "MagpieData mean MeltingT",
+      "SHAP": 0.012671948410570621
+    },
+    {
+      "feature": "MagpieData mean NdValence",
+      "SHAP": 0.012082335539162159
+    },
+    {
+      "feature": "MagpieData mean Electronegativity",
+      "SHAP": 0.008315891027450562
+    },
+    {
+      "feature": "vpa",
+      "SHAP": 0.00778794614598155
+    },
+    {
+      "feature": "MagpieData mean Row",
+      "SHAP": 0.007608706597238779
+    },
+    {
+      "feature": "MagpieData mean NdUnfilled",
+      "SHAP": 0.007584237027913332
+    }
+  ],
+  "top10_xgb_features": [
+    {
+      "feature": "MagpieData maximum Electronegativity",
+      "XGBoost": 0.07905684411525726
+    },
+    {
+      "feature": "MagpieData minimum CovalentRadius",
+      "XGBoost": 0.05452745780348778
+    },
+    {
+      "feature": "MagpieData minimum MeltingT",
+      "XGBoost": 0.05216240882873535
+    },
+    {
+      "feature": "MagpieData mode MeltingT",
+      "XGBoost": 0.027104252949357033
+    },
+    {
+      "feature": "MagpieData maximum GSbandgap",
+      "XGBoost": 0.02207416109740734
+    },
+    {
+      "feature": "MagpieData range Column",
+      "XGBoost": 0.0193521399050951
+    },
+    {
+      "feature": "MagpieData mean GSmagmom",
+      "XGBoost": 0.015797169879078865
+    },
+    {
+      "feature": "MagpieData minimum GSvolume_pa",
+      "XGBoost": 0.014895851723849773
+    },
+    {
+      "feature": "density",
+      "XGBoost": 0.014378744177520275
+    },
+    {
+      "feature": "MagpieData mode CovalentRadius",
+      "XGBoost": 0.013491959311068058
+    }
+  ],
+  "model_test_r2": 0.6896317024131202
+}
