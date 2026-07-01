@@ -1,0 +1,16 @@
+{
+  "r2": 0.6598552504762014,
+  "rmse": 0.15200474544912834,
+  "mean_uncertainty": 0.1499604972709523,
+  "corr_uncertainty_vs_error": 0.29415833404348307,
+  "train_time": 99.40782737731934,
+  "n_samples": 1500,
+  "optimized_kernel": "1.84**2 * RBF(length_scale=16.9) + WhiteKernel(noise_level=0.237)",
+  "comparison": {
+    "Day15 \u9ed8\u8ba4": 0.6177506216897453,
+    "Day16 \u6811\u53c2\u6570": 0.655483018593694,
+    "Day17 \u5b66\u4e60\u53c2\u6570": 0.6828419629364131,
+    "Day18 \u6700\u7ec8": 0.6896317024131202,
+    "Day23_GPR": 0.6598552504762014
+  }
+}
